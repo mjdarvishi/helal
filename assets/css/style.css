@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'BYekan';
+    src: url(/assets/fonts/BYekan.eot);
+    src: local('BYekan'), url(/assets/fonts/BYekan.woff) format('woff'), url(/assets/fonts/BYekan.ttf) format('truetype');
+}
+
+header {
+    padding: 10px;
+    position: relative;
+    height: 160px;
+    background-color: rgba(186, 186, 186, 0.89);
+    box-shadow: 1px 7px 9px #888888;
+
+}
+
+
+body {
+    font-family: BYekan;
+    text-align: right;
+    direction: rtl;
+    background-color: rgba(215, 215, 215, 0.89);
+}
+
+.index_img {
+    position: absolute;
+    right: 0;
+    width: 330px;
+    height:200px;
+}
+
+.flag_img {
+    position: absolute;
+    left: 0;
+}
+
+.login_right {
+    float: right;
+
+}
+
+.login_left {
+    float: right;
+}
+
+.login_title {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.login_title_login {
+    text-align: center;
+    font-size: 25px;
+}
+.login_input{
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+.login_user{
+    text-align: center;
+    float: right;
+}
+.login_send{
+float: right;
+}
+.login_reg{
+    text-align: center;
+}
+.login_news_box{
+    border-radius:6px;
+    margin-top: 40px;
+    background-color:white;
+    height: 500px;
+    padding: 8px;
+    overflow: scroll;
+}
+.login_news_item{
+    padding: 8px;
+}
+.icon_news{
+    padding-left: 5px;
+}
+.login_news_title{
+    background-color:rgba(119, 119, 118, 0.89);
+    text-align: center;
+}
+footer{
+    padding: 15px;
+    margin-top: 10px;
+    float: left;
+    height: 40px;
+    background-color: rgba(186, 186, 186, 0.89);
+}
+.footer_item{
+
+    text-align: center;
+    float: right;
+
+}
+.panel_row{
+    float: right;
+    cursor: pointer;
+    margin-top: 150px;
+}
+.panel_row_text{
+    padding-right: 15px;
+    margin-top: 15px;
+}
+.panel_box{
+    margin-right:20px;
+}
+.search_icon_edit{
+    position: absolute;
+    top: 20px;
+    left:22px;
+    cursor: pointer;
+}
+.edit_dore{
+    overflow: scroll !important;
+}
+.icon_delet{
+    cursor: pointer;
+}
